@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main-contend {
+    background-color: burlywood;
+    height: 630px;
+    width: 100%;
+}
+
+h1 {
+    font: optional;
+    color: brown;
+    margin: 20px 10px 0px 30px;
+    padding: 5px;
+    font-size: 35px;
+}
+
+hr {
+    width: 95%;
+    padding: 0px;
+    margin: 20px 0px 10px 30px;
+
+}
+
+.header {
+    background-color: white;
+    height: 110px;
+    width: 95%;
+    margin: 20px 0px 10px 30px; 
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.address-detials {
+    margin: 20px 0px 10px 0px;
+    
+
+}
+
+.contact-detials {
+    margin:auto
+
+
+    
+}
+
+.header2 {
+    width: 95%;
+    margin: 20px 0px 10px 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: max-content
+   
+}
+
+
+.message {
+    margin: 0px 0px 20px 0px;
+    font-size: 22px;
+    height: 100px;
+    width: 800px;
+}
+
+
+.name{
+    margin: 10px 50px 20px 0px;
+    font-size: 30px;
+}
+
+.email{
+    margin: 0px 50px 20px 0px;
+    font-size: 30px;
+}
+
+.company{
+    margin: 0px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.mobile{
+    margin: 0px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.iframe{
+    display: flex;
+    margin: 20px 50px 10px 0px;
+    flex-direction: column;
+    
+        
+}
+.fa-envelope {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.fa-square-phone {
+    color: red;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+.fa-twitter {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.fa-linkedin {
+    color: cadetblue;
+    font-size: 20px;
+}
+
+.fa-circle-user {
+    color: coral;
+    font-size: 20px;
+}
+
+.location{
+    color: red;
+    font-size: 40px;
+    margin: auto;
+}
+
+button {
+    font-size: 20px;
+    background-color: brown;
+    color: burlywood;
+}
+
+#submit {
+    font-size: 30px;
+    color: coral;
+    background-color: red;
+}
+
+.fa-house {
+    color: coral;
+    font-size: 20px;
+}
