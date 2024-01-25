@@ -129,7 +129,7 @@ h3 {
 .fa-facebook {
     position: absolute;
     top: 300px;
-    right: 360px;
+    right: 410px;
     color: darkmagenta;
     font-size: 20px;
 }
@@ -137,7 +137,7 @@ h3 {
 .fa-twitter {
     position: absolute;
     top: 300px;
-    right: 330px;
+    right: 380px;
     color: blueviolet;
     font-size: 20px;
 }
@@ -145,7 +145,7 @@ h3 {
 .fa-linkedin {
     position: absolute;
     top: 300px;
-    right: 300px;
+    right: 350px;
     color: cadetblue;
     font-size: 20px;
 }
@@ -153,7 +153,7 @@ h3 {
 .fa-circle-user {
     position: absolute;
     top: 300px;
-    right: 270px;
+    right: 320px;
     color: coral;
     font-size: 20px;
 }

@@ -110,6 +110,7 @@
 
 
   .main {
+    position: relative;
     height: 250px;
     margin: 20px 50px;
     display: flex;
@@ -118,16 +119,20 @@
   }
 
   .tex-watch {
-    margin: 50px 50px 50px 90px;
-    font-size: 22px;
+    position: absolute;
+    left: 90px;
+    top: 35px;
+    font-size: 20px;
     color: white;
 
   }
 
   .image-watch {
-    display: flex;    
-    align-items: center;
-    margin-left: 330px;
+    position: absolute;
+    left: 750px;   
+    top: 25px;
+    
+    
 
   }
 
