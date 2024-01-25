@@ -10,18 +10,16 @@
     width: 100%;
 }
 
+
 h1 {
-    font: optional;
     color: brown;
-    margin: 20px 10px 0px 30px;
+    margin: 0px 10px 0px 25px;
     padding: 5px;
     font-size: 35px;
 }
 
 hr {
-    width: 95%;
-    padding: 0px;
-    margin: 20px 0px 10px 30px;
+    margin: 20px 30px 10px 30px;
 
 }
 
@@ -29,72 +27,94 @@ hr {
     background-color: white;
     height: 110px;
     width: 95%;
+    position: relative;
     margin: 20px 0px 10px 30px; 
-    display: flex;
-    justify-content: space-around;
-    
-    
+    display: flex;   
+}
+
+h3 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .address-detials {
-    margin: 20px 0px 10px 0px;
-    
-
+    position: absolute;
+    display: flex;
+    align-content: center;
+    left: 10px;
+    top: 35px;
 }
 
 .contact-detials {
-    margin:auto
+    position: absolute;
+    left: 550px;
+    top: 35px;
+}
 
-
+.location{
+    position: absolute;
+    left: 1000px;
+    top: 35px;
+    color: red;
+    font-size: 40px;
     
 }
 
 .header2 {
     width: 95%;
+    height: 350px;
     margin: 20px 0px 10px 30px;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     background-color: white;
-    height: max-content
+    position: relative;
    
 }
 
-
-.message {
-    margin: 0px 0px 20px 0px;
-    font-size: 22px;
-    height: 100px;
-    width: 800px;
-}
-
-
 .name{
-    margin: 10px 50px 20px 0px;
-    font-size: 30px;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+    position: absolute;
 }
 
 .email{
-    margin: 0px 50px 20px 0px;
-    font-size: 30px;
+    top: 70px;
+    left: 10px;
+    font-size: 25px;
+    position: absolute;
 }
 
 .company{
-    margin: 0px 0px 20px 0px;
-    font-size: 30px;
+    top: 10px;
+    left: 350px;
+    font-size: 25px;
+    position: absolute;
 }
 
 .mobile{
-    margin: 0px 0px 20px 0px;
-    font-size: 30px;
+    top: 70px;
+    left: 350px;
+    font-size: 25px;
+    position: absolute;
+}
+
+.message {
+    top: 130px;
+    left: 10px;
+    font-size: 22px;
+    position: absolute;
+    height: 100px;
+    width: 650px;
 }
 
 .iframe{
     display: flex;
-    margin: 20px 50px 10px 0px;
-    flex-direction: column;
-    
-        
+    position: absolute;
+    top: 20px;
+    left: 720px;
+       
 }
 .fa-envelope {
     color: cornflowerblue;
@@ -107,38 +127,41 @@ hr {
 }
 
 .fa-facebook {
+    position: absolute;
+    top: 300px;
+    right: 360px;
     color: darkmagenta;
     font-size: 20px;
 }
 
 .fa-twitter {
+    position: absolute;
+    top: 300px;
+    right: 330px;
     color: blueviolet;
     font-size: 20px;
 }
 
 .fa-linkedin {
+    position: absolute;
+    top: 300px;
+    right: 300px;
     color: cadetblue;
     font-size: 20px;
 }
 
 .fa-circle-user {
+    position: absolute;
+    top: 300px;
+    right: 270px;
     color: coral;
     font-size: 20px;
 }
 
-.location{
-    color: red;
-    font-size: 40px;
-    margin: auto;
-}
-
-button {
-    font-size: 20px;
-    background-color: brown;
-    color: burlywood;
-}
-
 #submit {
+    position: absolute;
+    top: 250px;
+    left: 10px;
     font-size: 30px;
     color: coral;
     background-color: red;

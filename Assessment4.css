@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.main-section {
+    padding: 0% 50px;
+
+}
+
+.CONTACT {
+    padding: 20px 0px;
+}
+
+hr {
+    margin: 0px 0px 20px 0px;
+}
+
+.address-detials {
+    background-color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    height: 100px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+}
+
+.addr {
+
+    margin: 0px 10px -30px 10px;
+}
+
+.add {
+    margin: 0px 10px 90px 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 500px;justify-content: center;
+
+
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fa-phone,.fa-envelope,
+.fa-location-dot {
+    color: darkgreen;
+}

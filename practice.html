@@ -1,14 +1,68 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='prectice.css'>
-    <script src='main.js'></script>
-</head>
-<body>
-    
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        height: 500px;
+        width: 700px;
+        padding: 0px;
+        border: 1px solid;
+        position: relative;
+        border-color: ;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        border-radius: 24px;
+        background-color: magenta;
+      }
+      .container:hover .box {
+        animation-name: sliderRight;
+        position: absolute;
+        animation-duration: 1600ms;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        animation-delay: 300ms;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+      }
+      @keyframes sliderRight {
+        0% {
+          transform: translateX(0px);
+          background-color: magenta;
+          border-radius: 24px;
+        }
+        25% {
+          transform: translate(1200px, -200px) rotate(360deg) scale(2);
+          background-color: brown;
+          border-radius: 48px;
+        }
+        50% {
+          transform: translateX(1200px, 100px);
+          background-color: chocolate;
+          border-radius: 48px;
+        }
+
+        75% {
+          transform: translate(1200px, 300px);
+          background-color: aqua;
+          border-radius: 50%;
+        }
+        100% {
+          transform: translate(0px, 300px);
+          background-color: yellowgreen;
+          border-radius: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1000px;
+        height: 500px;
+        border: 1px solid;
+        margin: 0 auto;
+        position: relative;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        border-radius: 24px;
+        background-color: magenta;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* transition: background-color 300ms, left 500ms, top 1600ms,
+          border-radius 1200ms; */
+
+        transition: all 600ms 300ms ease-in-out;
+
+        /* transition-duration: 1200ms;
+        transition-property: all;
+        transition-delay: 200ms;
+        transition-timing-function: ease-in; */
+      }
+      .container:hover .box {
+        left: 800px;    
+        top: calc(100% - 200px);
+        background-color: chocolate;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
