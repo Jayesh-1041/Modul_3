@@ -112,6 +112,7 @@
   .main {
     position: relative;
     height: 250px;
+    width: auto;
     margin: 20px 50px;
     display: flex;
     border-radius: 20px;

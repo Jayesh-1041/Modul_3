@@ -6,7 +6,7 @@
 }
 #main-contend{
     width: 100%;
-    height: max-content;
+    height: auto;
     background-color: cadetblue;
     padding: 1px 20px;
 }
